@@ -2,7 +2,7 @@ const express = require("express");
 const morgan = require("morgan");
 require("dotenv").config();
 const foodRouter = require("./router/food.route");
-const UserRouter
+const UserRoute =require("./routes/userRoute")
 const connectDB = require("./config/connectDB");
 const foodRoute = require("./routes/foodRoute")
 
